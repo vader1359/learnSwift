@@ -123,7 +123,7 @@ for employee in employees {
         // Here we should use the question mark ? -> the instance salariedEmployee is an optional instance of SalariedEmployee
         // Using if let or guard with as? for safer casting
         if let salariedEmployee = employee as? SalariedEmployee {
-//        salariedEmployee?.paySalary() -> This is optional chaining, this way is still OK
+            //        salariedEmployee?.paySalary() -> This is optional chaining, this way is still OK
             salariedEmployee.paySalary()
         }
     }
@@ -141,6 +141,9 @@ for employee in employees {
 //}
 
 // => There is no need to add the argument when calling the method
+
+
+
 
 
 
